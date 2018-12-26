@@ -186,7 +186,7 @@ metadata:
         kubernetes.io/ingress.class: traefik
 spec:
     rules:
-    -   host: dashboard.multi.io
+    -   host: k8s-dev.youyu.cn 
         http:
             paths:
             -   backend:
